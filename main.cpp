@@ -17,9 +17,9 @@ int main() {
     std::cout << "Blinking LED on GPIO 17 (WiringPi pin 0)... Press Ctrl+C to stop.\n";
     while (true) {
         digitalWrite(LED_PIN, HIGH); // LED on
-        delay(500);                 // 500 ms
+        delay(200);                 // 500 ms
         digitalWrite(LED_PIN, LOW);  // LED off
-        delay(500);                 // 500 ms
+        delay(200);                 // 500 ms
     }
     return 0;
 }
