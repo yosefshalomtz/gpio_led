@@ -20,9 +20,7 @@ int main(int argc, char** argv) {
         digitalWrite(LED_PIN, HIGH); // LED on
         delay(std::atoi(argv[1]));                 // 500 ms
         digitalWrite(LED_PIN, LOW);  // LED off
-        int l_d = std::atoi(argv[1]);
-        int ll = l_d - (l_d/2);
-        delay(ll);                 // 500 ms
+        delay(std::atoi(argv[1]));                 // 500 ms
     }
     return 0;
 }
