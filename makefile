@@ -1,4 +1,4 @@
 main: main.cpp
-	g++ main.cpp -o main
+	g++ main.cpp -lwiringPi -o main
 run:
 	./main
